@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Order</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet">
+    <link rel="icon" href="./imgs/favicon.ico" type="image/x-icon">
+</head>
+<style>
+    body {
+        background-color: #000;
+    }
+</style>
+<body>
+    <section class="popupPage">
+        <div class="container container-order" >
+            <a href="index.html">
+                <div >
+                    <span class="close">&times;</span>
+                </div>
+            </a>
+            <!-- <div style="width: 395px; height: 47px; left: 591px; top: 175px; position: absolute; color: #A9A9A9; font-size: 14px; font-family: Montserrat; font-weight: 300; line-height: 21px; word-wrap: break-word">Send a request and we will answer you at a convenient time for you to place an order</div>
+            <div style="width: 291px; height: 86px; left: 291px; top: 137px; position: absolute; color: #3C113F; font-size: 100px; font-family: Libre Bodoni; font-weight: 400; line-height: 90px; word-wrap: break-word">Order</div> -->
+            <div class="titels" style="justify-content: center; margin-bottom: 5rem;">
+                    <h1 class="order-title">Order</h1>
+                    <p class="order-desc"> 
+                        Send a request and we will answer you at a convenient 
+                        time for you to place an order</p>
+            </div>
+            <form action="Success.html" method="POST">
+                <div class="order-form">
+                    <!-- first name and last name  -->
+                    <div >
+                        <p style="margin-bottom: 10px;color: #9B51E0; font-size: 14px; font-family: Montserrat; font-weight: 400; line-height: 21px; word-wrap: break-word">First Name*</p>
+                        <input class="min-width-for-inputs" type="text" id="First Name" placeholder="First Name"  required />
+                        <p style="margin-bottom: 10px; color: #9B51E0; font-size: 14px; font-family: Montserrat; font-weight: 400; line-height: 21px; word-wrap: break-word">Last Name*</p>
+                        <input class="min-width-for-inputs" type="text" id="First-Name" placeholder="Last Name"  required />
+
+                    </div>
+                    <div>
+                        <p style="margin-bottom: 10px; color: #9B51E0; font-size: 14px; font-family: Montserrat; font-weight: 400; line-height: 21px; word-wrap: break-word">Phone Number*</p>
+                        <input class="min-width-for-inputs" type="number" id="First Name" placeholder="Phone Number"    required/>
+                        <p style="margin-bottom: 10px; color: #9B51E0; font-size: 14px; font-family: Montserrat; font-weight: 400; line-height: 21px; word-wrap: break-word">Email*</p>
+                        <input class="min-width-for-inputs" type="email" id="First-Name" placeholder="Email"   required/>
+                    </div>
+                    <div>
+                        <p style="margin-bottom: 10px; color: #9B51E0; font-size: 14px; font-family: Montserrat; font-weight: 400; line-height: 21px; word-wrap: break-word">Time To Call*</p>
+                        <input class="min-width-for-inputs" type="text" id="First Name" placeholder="Time To Call"  required />
+                        <p style="margin-bottom: 10px; color: #9B51E0; font-size: 14px; font-family: Montserrat; font-weight: 400; line-height: 21px; word-wrap: break-word">Country*</p>
+                        <input class="min-width-for-inputs" type="text" id="First-Name" placeholder="Country"   required />
+                    </div>
+
+            </div>
+
+                <input   class="Message msg-new-style" type="text" id="Message" placeholder="Message" required/>
+
+                <div class="check-section">
+                    <input  type="radio" class="radio radio-order" checked="">
+                    <p>
+                      Your personal data are guaranteed to be safe and will not be handed over to third parties.
+                      <span>I accept the privacy policy.</span>
+                    </p>
+                    <input  class="submit" type="submit" value="Submit">
+                  </div>
+</form>
+            </div>
+       
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
