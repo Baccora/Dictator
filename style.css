@@ -12,7 +12,7 @@ html {
 a{
   text-decoration: none;
   color: #F0C673;
-  border-radius: 55px;
+  border-radius: 5px;
   transition: .5s;
 }
 a:hover{
@@ -27,7 +27,7 @@ body{
 }
 body::-webkit-scrollbar-thumb {
   border-radius: 100vw;
-  background: linear-gradient(180deg, #F0C673 0%, #BB236F 100%);
+    background: linear-gradient(180deg,#548FC1 100%,#548FC1 30%, #000000 25%);
 }
 body::-webkit-scrollbar {
   width: 0.6em;
@@ -353,11 +353,20 @@ body::-webkit-scrollbar {
 }
 @media screen and (max-width: 767px) {
   #menu img{
-    position: absolute;
+    /* position: absolute;
     right: -30px;
     top: 10px !important;
     width: 4rem !important;
     object-fit: scale-down;
+    z-index: 11111111; */
+    position: absolute;
+    right: -14px;
+    top: 18px !important;
+    width: 4rem !important;
+    /* object-fit: scale-down; */
+    max-width: 41px;
+    background: black;
+    z-index: 11111111;
   }
 }
 /* // ===================== NavBar ===================== // */
@@ -381,7 +390,7 @@ body::-webkit-scrollbar {
 }/* black_watch */
 .section1 .black_watch{
   position: absolute;
-  left: 47%;
+  left: 55%;
   top: 50%;
   transform: translate(-47%,-50%);
   z-index: 1;
@@ -398,7 +407,7 @@ body::-webkit-scrollbar {
 } 
 .section1 .Yellow_watch{
   z-index: 2;
-  width: 450px;
+  min-width: 38rem;
   height: 677px;
   background-image: url("imgs/left_img.svg");
   animation: 3s Yellow_watch forwards;
@@ -1335,7 +1344,7 @@ form{
   max-width: /* 420px */100%;
   background-color:#0E0E0E;
   border: 1px solid   #2D2D2D;
-  border-radius: 35px;
+  border-radius: 5px;
   color: rgba(255, 255, 255, 1);
   outline-color:  #548fc1;
 }
@@ -1705,7 +1714,7 @@ color: #F0C673 !important;
     top: 10rem;
   }
   .text-life-can-be-change{
-    background: linear-gradient(to right,#752b7ae8, #bb236fab, #FFAD0E00);
+    background: linear-gradient(to right,rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 40px;
@@ -1738,7 +1747,7 @@ color: #F0C673 !important;
       top: 10rem;
     }
     .text-life-can-be-change{
-      background: linear-gradient(to right,#752b7ae8, #ff40a082, #ffa80033);
+      background: linear-gradient(to right,rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
       -webkit-background-clip: text;
       color: transparent;
       font-size: 34px;
@@ -1749,9 +1758,8 @@ color: #F0C673 !important;
       position: absolute;
       z-index: 111111;
       right: 7rem;
-      top: 21rem;
+      top: 10rem;
     }
-    
     }
 
 
@@ -1772,7 +1780,7 @@ color: #F0C673 !important;
       top: 10rem;
     }
     .text-life-can-be-change{
-      background: linear-gradient(to right,#752b7ae8, #ff40a082, #ffa80033);
+      background: linear-gradient(to right,rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
       -webkit-background-clip: text;
       color: transparent;
       font-size: 34px;
@@ -1805,7 +1813,7 @@ color: #F0C673 !important;
       top: 10rem;
     }
     .text-life-can-be-change{
-      background: linear-gradient(to right,#752b7ae8, #ff40a082, #ffa80033);
+  background: linear-gradient(to right,rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
       -webkit-background-clip: text;
       color: transparent;
       font-size: 34px;
@@ -1838,7 +1846,7 @@ color: #F0C673 !important;
         top: 10rem;
       }
       .text-life-can-be-change{
-        background: linear-gradient(to right,#752b7ae8, #ff40a082, #ffa80033);
+          background: linear-gradient(to right,rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
         -webkit-background-clip: text;
         color: transparent;
         font-size: 34px;
@@ -1964,7 +1972,10 @@ color: #F0C673 !important;
   top: 1rem;
   }
 }
+.menu-border:hover{
+  background-image: url(./imgs/buttons/order_reverse_border.png) !important;
 
+}
 /* For medium mobile devices (481px - 767px) */
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .text-all-swits-text-soul-section{
@@ -2423,7 +2434,7 @@ Desktop:
    
   background-size: contain !important;
    
-  padding: 11px 46px 21px 31px !important;
+  padding: 17px 46px 21px 31px !important;
    
   z-index: 111111 !important;
    
@@ -2704,7 +2715,7 @@ section .cookies a{
 
 div#myModal::-webkit-scrollbar-thumb {
   border-radius: 100vw !important;
-  background: linear-gradient(180deg, #F0C673 0%, #BB236F 100%) !important;
+  background: linear-gradient(180deg,#548FC1 100%,#548FC1 30%, #000000 25%) !important;
 }
 div#myModal::-webkit-scrollbar {
   width: 0.6em !important;
@@ -2815,9 +2826,14 @@ div#myModal{
   height: 820px;
 }
 .section5-5 .right_side{
-  background-image: url("imgs/Group\ 9335.png");
+  /* background-image: url("imgs/Group\ 9335.png");
   background-repeat: no-repeat;
   background-size: cover;
+  width: 35rem;
+  height: 800px;
+  position: relative; */
+  background-image: url("imgs/Group\ 9335.png");
+  background-size: contain;
   width: 35rem;
   height: 800px;
   position: relative;
@@ -2827,7 +2843,7 @@ div#myModal{
 }
 .section5-5 .left_side h1{
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(91.23deg, #752B7A -1.78%, rgba(187, 35, 111, 0.5) 55.68%, rgba(255, 173, 14, 0) 102.3%);
+  background: linear-gradient(180deg,#548FC1 100%,#548FC1 30%, #000000 25%);
   -webkit-background-clip: text;
   font-family: Libre Bodoni;
   font-size: 80px;
@@ -2871,8 +2887,8 @@ div#myModal{
   transition: .5s;
 }
 .section5-5 .right_side .section5-5Image {
-  background-image: url("imgs/section5-5colse.png");
-  background-size: cover;
+  background-image: url("imgs/light.png"),url("imgs/section5-5colse.png");
+  background-size: cover , contain;
   width: 25rem;
   height: 532px;
   max-height: 25rem;
@@ -2881,6 +2897,8 @@ div#myModal{
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
+  content: "";
+
 }
 @keyframes section5-5Image {
   0%   { background-image: url("imgs/section5-5-front-img.png");}
@@ -3021,4 +3039,33 @@ div#myModal{
   /* background-image: url("imgs/buttons/Property\ 1=Variant2.png"); */
   content: url('imgs/youtube_icon_after_hover.png');
   transition: .9s;
+}
+
+
+
+.dictator-character-gallery-text-section{
+  display: flex;
+  flex-direction: row;
+  font-family: Libre Bodoni;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 117px;
+  letter-spacing: 0em;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.dictator-text{
+  background: linear-gradient(180deg,#548FC1 100%,#548FC1 30%, #000000 25%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-right: 1.2rem;
+}
+.character-text
+{
+  background: linear-gradient(180deg, #454545 100%, #454545 100%,#000000 25%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
 }
