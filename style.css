@@ -357,6 +357,7 @@ body::-webkit-scrollbar {
     right: -30px;
     top: 10px !important;
     width: 4rem !important;
+    object-fit: scale-down;
   }
 }
 /* // ===================== NavBar ===================== // */
@@ -1294,8 +1295,8 @@ body::-webkit-scrollbar {
   width: 100%;
   padding-left: 290px;
   padding-right: 290px;
-  background-image: url(imgs/wallpapersden\ 3.png);
-  background-size: cover;
+  background-image: url(imgs/wallpaper/contact_us_wallpaper.png);
+  background-size: contain;
 }
 .section7 h1{
   font-family: Libre Bodoni;
@@ -1304,7 +1305,7 @@ body::-webkit-scrollbar {
   line-height: 117px;
   letter-spacing: 0em;
   text-align: left;
-  background: linear-gradient(91.23deg, #3C113F -1.78%, rgba(187, 35, 111, 0.5) 55.68%, rgba(255, 173, 14, 0) 102.3%);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0000%, rgba(84,143,193,1) 49%, rgba(169,169,169,1) 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -1332,11 +1333,11 @@ form{
  input{
   padding: 15px;
   max-width: /* 420px */100%;
-  background-color: rgba(12, 12, 21, 1);
-  border: 1px solid  rgba(66, 18, 66, 1);
+  background-color:#0E0E0E;
+  border: 1px solid   #2D2D2D;
   border-radius: 35px;
   color: rgba(255, 255, 255, 1);
-  outline-color: rgba(151, 71, 255, 1);
+  outline-color:  #548fc1;
 }
 .Message{
   width: 100%;
@@ -1438,10 +1439,12 @@ footer{
 footer .container{
   display: flex;
   align-items: center;
-  margin-bottom: 59px;
+  margin-bottom: 3px;
+  flex-direction: column;
 }
 footer .container .copyright{
   margin-top: -20px;
+  margin-bottom: 3rem;
 }
 footer .logo{
   margin: 42px 0;
@@ -1490,7 +1493,7 @@ footer .cookies a{
     flex-direction: column;
   }
   .sosyal{
-    margin-top: 30px;
+    margin-top: 3px;
   }
   footer .container .links{
     margin-top: 30px;
@@ -1500,6 +1503,18 @@ footer .cookies a{
   footer .container .links a{
     display: block;
   }
+}
+footer .container .instagram img:hover{
+  content: url('imgs/instagram_icon_after_hover.png');
+  transition: .9s;
+}
+footer .container .facebook img:hover{
+  content: url('imgs/facebook_icon_after_hover.png');
+  transition: .9s;
+}
+footer .container .twitter img:hover{
+  content: url('imgs/twitter_icon_after_hover.png');
+  transition: .9s;
 }
 .cookies a{
   background-repeat: no-repeat;
@@ -1512,6 +1527,7 @@ footer .cookies a{
   background-image: url("imgs/Rectangle\ 3373.png");
   margin-left: 50px;
   cursor: pointer;
+  float: right;
 }
 .cookies a:hover{
   background-image: url("imgs/buttons/Property\ 1=Variant2.png");
@@ -1545,8 +1561,8 @@ footer .cookies a{
   line-height: 72px;
   letter-spacing: 0em;
   text-align: left;
-  background: linear-gradient(91.23deg, #752B7A -1.78%, rgba(187, 35, 111, 0.5) 55.68%, rgba(255, 173, 14, 0) 102.3%);
-  -webkit-text-fill-color: transparent;
+  background: rgb(0,0,0);
+  background: linear-gradient(54deg, rgba(0,0,0,1) 0000%, rgba(84,143,193,1) 49%, rgba(169,169,169,1) 100%);  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 .SuccessPage .container p{
