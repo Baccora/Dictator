@@ -978,7 +978,7 @@ body::-webkit-scrollbar {
   overflow: hidden;
 }
 .section5 h1{
-  background: linear-gradient(91.23deg, #3C113F -1.78%, rgba(187, 35, 111, 0.5) 55.68%, rgba(255, 173, 14, 0) 102.3%);
+  background: linear-gradient(180deg, rgba(169,169,169,1) 0%, rgba(84,143,193,1) 42%, rgba(0,0,0,1) 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: Libre Bodoni;
@@ -990,7 +990,6 @@ body::-webkit-scrollbar {
 }
 .section5 img{
   width: 100%;
-  margin-top: -100px;
 }
 .section5 a{
   font-family: Montserrat;
