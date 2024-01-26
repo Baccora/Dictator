@@ -386,21 +386,25 @@ body::-webkit-scrollbar {
   z-index: 1;
 /*   width: 657px;
   height: 677px; */
-  width: 405px;
+  width: 514px;
   height: 671px;
-  background-image: url("imgs/12.png");
+  background-image: url("imgs/slider_right_img.svg");
   animation: 3s black_watch forwards;
   transition: 4.5s;
-  background-size: cover;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  margin-top: 3rem;
 } 
 .section1 .Yellow_watch{
   z-index: 2;
-  width: 697px;
+  width: 450px;
   height: 677px;
-  background-image: url("imgs/2022-01-16-15-00-47-\(C\,Smoothing4\)+\ \(1\).png");
+  background-image: url("imgs/left_img.svg");
   animation: 3s Yellow_watch forwards;
   transition: 4.5s;
-  background-size: cover;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  margin-top: 3rem;
 }
 @keyframes Yellow_watch {
   from {
@@ -436,7 +440,7 @@ body::-webkit-scrollbar {
 .Brunette-Blonde .Brunette,
 .Brunette-Blonde .Blonde{
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(91.23deg, #752B7A -1.78%, rgba(187, 35, 111, 0.5) 55.68%, rgba(255, 173, 14, 0) 102.3%);
+  background: linear-gradient(91.23deg, rgba(127, 140, 153), rgb(131, 158, 184), rgba(219, 219, 219, 0));
   -webkit-background-clip: text;
   position: absolute;
 }
@@ -584,27 +588,32 @@ body::-webkit-scrollbar {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-23%,-50%);
   z-index: 2;
   width: 459px;
   height: 459px;
-  background-image: url("imgs/2022-01-16-15-00-47-\(C\,Smoothing4\)+\ \(1\).png");
+  background-image: url("imgs/slider_mob_right_img.png");
   background-size: cover;
   animation: 3s Yellow_watch_mob forwards;
   transition: 4.5s;
+  background-size:initial;
+  background-repeat: no-repeat;
 }
 .black_watch_mob{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-5%,-15%);
   z-index: 1;
   width: 459px;
   height: 459px;
-  background-image: url("imgs/black_watch_mob.png");
+  background-image: url("imgs/slider_mob_left_img.png");
   background-size: cover;
   animation: 3s black_watch_mob forwards;
   transition: 4.5s;
+  background-size:initial;
+  background-repeat: no-repeat;
+  z-index: 111;
   }
 }
 @keyframes Yellow_watch_mob {
@@ -613,18 +622,18 @@ body::-webkit-scrollbar {
     left: 50%;
   }
   to {
-    top: 60%;
+    top: 45%;
     left: 35%;
   }
 }
 @keyframes black_watch_mob {
   from {
-    top: 50%;
+    top: 55%;
     left: 50%;
   }
   to {
-    top: 40%;
-    left: 65%;
+    top: 24%;
+    left: 45%;
   }
 }
 /* // ===================== section1 ===================== // */
@@ -1634,7 +1643,7 @@ color: #F0C673 !important;
 }
 @media screen and (min-width:1869px) and (max-width:50000px){
 .text-all-swits{
-  background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+  background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
   -webkit-background-clip: text;
   color: transparent;
   font-size: 40px;
@@ -1648,18 +1657,18 @@ color: #F0C673 !important;
   top: 10rem;
 }
 .text-life-can-be-change{
-  background: linear-gradient(to right,#752B7A94, #BB236F52, #FFAD0E00);
+  background: linear-gradient(to right,rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
   -webkit-background-clip: text;
   color: transparent;
   font-size: 40px;
   font-family: Libre Bodoni;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 44px;
   word-wrap: break-word;
   position: absolute;
   z-index: 111111;
   right: 19rem;
-  top: 21rem;
+  top: 10rem;
   
 }
 }
@@ -1667,7 +1676,7 @@ color: #F0C673 !important;
 
 @media screen and (min-width:1439px) and (max-width:1870px){
   .text-all-swits{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+    background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 40px;
@@ -1700,7 +1709,7 @@ color: #F0C673 !important;
 
   @media screen and (min-width:1024px) and (max-width:1440px){
     .text-all-swits{
-      background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
       -webkit-background-clip: text;
       color: transparent;
       font-size: 40px;
@@ -1734,7 +1743,7 @@ color: #F0C673 !important;
     
   @media screen and (min-width:768px) and (max-width:1025px){
     .text-all-swits{
-      background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
       -webkit-background-clip: text;
       color: transparent;
       font-size: 40px;
@@ -1767,7 +1776,7 @@ color: #F0C673 !important;
     
   @media screen and (min-width:768px) and (max-width:1025px){
     .text-all-swits{
-      background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+        background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
       -webkit-background-clip: text;
       color: transparent;
       font-size: 40px;
@@ -1800,7 +1809,7 @@ color: #F0C673 !important;
  
     @media screen and (min-width:768px) and (max-width:1025px){
       .text-all-swits{
-        background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+          background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
         -webkit-background-clip: text;
         color: transparent;
         font-size: 40px;
@@ -1835,7 +1844,7 @@ color: #F0C673 !important;
 /* For medium mobile devices (481px - 767px) */
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .text-all-swits{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 27px;
@@ -1851,7 +1860,7 @@ color: #F0C673 !important;
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .text-all-swits{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e);
+    background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 20px;
@@ -1872,7 +1881,7 @@ color: #F0C673 !important;
 /* For small mobile devices (320px - 480px) */
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .text-all-swits-text-soul-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e);
+    background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 30px;
@@ -1900,7 +1909,7 @@ color: #F0C673 !important;
     bottom: 0rem;
   }
   .text-all-swits-up-on-the-wink-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e);
+    background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 25px;
@@ -1944,7 +1953,7 @@ color: #F0C673 !important;
 /* For medium mobile devices (481px - 767px) */
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .text-all-swits-text-soul-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+    background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 29px;
@@ -1972,7 +1981,7 @@ color: #F0C673 !important;
     bottom: 0rem;
   }
   .text-all-swits-up-on-the-wink-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 25px;
@@ -1991,7 +2000,7 @@ color: #F0C673 !important;
 /* For large mobile devices (768px - 1024px) */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
  .text-all-swits-text-soul-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 30px;
@@ -2019,7 +2028,7 @@ color: #F0C673 !important;
     bottom: -4rem;
   }
   .text-all-swits-up-on-the-wink-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 27px;
@@ -2037,7 +2046,7 @@ color: #F0C673 !important;
 /* For small tablets (768px - 1024px) */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .text-all-swits-text-soul-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 30px;
@@ -2065,7 +2074,7 @@ color: #F0C673 !important;
     bottom: -4rem;
   }
   .text-all-swits-up-on-the-wink-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 27px;
@@ -2083,7 +2092,7 @@ color: #F0C673 !important;
 /* For medium tablets (1025px - 1366px) */
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
   .text-all-swits-text-soul-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 30px;
@@ -2111,7 +2120,7 @@ color: #F0C673 !important;
     bottom: -4rem;
   }
   .text-all-swits-up-on-the-wink-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 27px;
@@ -2129,7 +2138,7 @@ color: #F0C673 !important;
 /* For large tablets (1367px - 1600px) */
 @media screen and (min-width: 1367px) and (max-width: 1600px) {
   .text-all-swits-text-soul-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 30px;
@@ -2157,7 +2166,7 @@ color: #F0C673 !important;
     bottom: -4rem;
   }
   .text-all-swits-up-on-the-wink-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 27px;
@@ -2176,7 +2185,7 @@ color: #F0C673 !important;
 /* For small desktops (1025px - 1366px) */
 @media screen and (min-width: 1025px) and (max-width: 1449px) {
   .text-all-swits-text-soul-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 30px;
@@ -2204,7 +2213,7 @@ color: #F0C673 !important;
     bottom: -4rem;
   }
   .text-all-swits-up-on-the-wink-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 27px;
@@ -2222,7 +2231,7 @@ color: #F0C673 !important;
 /* For medium desktops (1367px - 1600px) */
 @media screen and (min-width: 1450) and (max-width: 1600px) {
   .text-all-swits-text-soul-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 40px;
@@ -2250,7 +2259,7 @@ color: #F0C673 !important;
     top: 21rem;
   }
   .text-all-swits-up-on-the-wink-section{
-    background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+      background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
     -webkit-background-clip: text;
     color: transparent;
     font-size: 27px;
@@ -2269,7 +2278,7 @@ color: #F0C673 !important;
 /* For large desktops (1601px and above) */
 @media screen and (min-width: 1601px)  {
 .text-all-swits-text-soul-section{
-  background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+    background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
   -webkit-background-clip: text;
   color: transparent;
   font-size: 40px;
@@ -2300,7 +2309,7 @@ color: #F0C673 !important;
 
 .text-all-swits-up-on-the-wink-section{
 
-  background: linear-gradient(to right, #752B7A, #BB236F80, #ffad0e1f);
+    background: linear-gradient(to right, rgba(30, 30, 30, 1), rgba(136, 136, 136, 0.5),rgba(127, 140, 153));
   -webkit-background-clip: text;
   color: transparent;
   font-size: 27px;
