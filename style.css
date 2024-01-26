@@ -16,10 +16,10 @@ a{
   transition: .5s;
 }
 a:hover{
-  color: #9747ff;
+  color: rgb(99, 121, 140);
 }
 .section2-container a {
-  color: #9747ff !important;
+  color: #A9A9A9 !important;
 }
 
 body{
@@ -704,7 +704,7 @@ body::-webkit-scrollbar {
 .gallery > img{
   width: 100%;
   aspect-ratio: 1 / 1;
-  object-fit: cover;
+  object-fit: contain;
   transition: all 0.3s ease;
 }
 .gallery:has(img:hover) img:not(:hover) {
@@ -2999,4 +2999,11 @@ div#myModal{
   .swiper-slide{
   width: inherit !important; 
   }
+}
+
+
+.section2-container .open-with-youtube img:hover{
+  /* background-image: url("imgs/buttons/Property\ 1=Variant2.png"); */
+  content: url('imgs/youtube_icon_after_hover.png');
+  transition: .9s;
 }
