@@ -1,61 +1,61 @@
 /*  ==================== Opening & closing eyes ====================  */
 /* ==================== Section1 ==================== */
 /* Yellow_watch */
-var myElement = document.getElementById('Yellow_watch'),
-  imgList = [
-    "imgs/2022-01-16-15-00-47-\(C\,Smoothing4\)+\ \(1\).png",
-    "imgs/open1.png",
-  ];
-function changeImage1(myElement, imgList) {
-  setInterval(function () {
-    randomImage = Math.floor(Math.random() * imgList.length);
-    myElement.style.backgroundImage = "url('" + imgList[randomImage] + "')";
-  }, 2000);
-}
-changeImage1(myElement, imgList);
-/* // Yellow_watch // */
-/* black_watch */
-var myElement = document.getElementById('black_watch'),
-  imgList = [
-    "imgs/12.png",
-    "imgs/11.png",
-  ];
-function changeImage2(myElement, imgList) {
-  setInterval(function () {
-    randomImage = Math.floor(Math.random() * imgList.length);
-    myElement.style.backgroundImage = "url('" + imgList[randomImage] + "')";
-  }, 1000);
-}
-changeImage2(myElement, imgList);
-/* // black_watch // */
+// var myElement = document.getElementById('Yellow_watch'),
+//   imgList = [
+//     "imgs/2022-01-16-15-00-47-\(C\,Smoothing4\)+\ \(1\).png",
+//     "imgs/open1.png",
+//   ];
+// function changeImage1(myElement, imgList) {
+//   setInterval(function () {
+//     randomImage = Math.floor(Math.random() * imgList.length);
+//     myElement.style.backgroundImage = "url('" + imgList[randomImage] + "')";
+//   }, 2000);
+// }
+// changeImage1(myElement, imgList);
+// /* // Yellow_watch // */
+// /* black_watch */
+// var myElement = document.getElementById('black_watch'),
+//   imgList = [
+//     "imgs/12.png",
+//     "imgs/11.png",
+//   ];
+// function changeImage2(myElement, imgList) {
+//   setInterval(function () {
+//     randomImage = Math.floor(Math.random() * imgList.length);
+//     myElement.style.backgroundImage = "url('" + imgList[randomImage] + "')";
+//   }, 1000);
+// }
+// changeImage2(myElement, imgList);
+// /* // black_watch // */
 
-/* Yellow_watch_mob */
-var myElement = document.getElementById('Yellow_watch_mob'),
-  imgList = [
-    "imgs/2022-01-16-15-00-47-\(C\,Smoothing4\)+\ \(1\).png",
-    "imgs/open_Yellow_watch_mob.png",
-  ];
-function changeImage1(myElement, imgList) {
-  setInterval(function () {
-    randomImage = Math.floor(Math.random() * imgList.length);
-    myElement.style.backgroundImage = "url('" + imgList[randomImage] + "')";
-  }, 3000);
-}
-changeImage1(myElement, imgList);
-/* // Yellow_watch_mob // */
-/* black_watch_mob */
-var myElement = document.getElementById('black_watch_mob'),
-  imgList = [
-    "imgs/black_watch_mob.png",
-    "imgs/open_black_watch_mob.png",
-  ];
-function changeImage2(myElement, imgList) {
-  setInterval(function () {
-    randomImage = Math.floor(Math.random() * imgList.length);
-    myElement.style.backgroundImage = "url('" + imgList[randomImage] + "')";
-  }, 3000);
-}
-changeImage2(myElement, imgList);
+// /* Yellow_watch_mob */
+// var myElement = document.getElementById('Yellow_watch_mob'),
+//   imgList = [
+//     "imgs/2022-01-16-15-00-47-\(C\,Smoothing4\)+\ \(1\).png",
+//     "imgs/open_Yellow_watch_mob.png",
+//   ];
+// function changeImage1(myElement, imgList) {
+//   setInterval(function () {
+//     randomImage = Math.floor(Math.random() * imgList.length);
+//     myElement.style.backgroundImage = "url('" + imgList[randomImage] + "')";
+//   }, 3000);
+// }
+// changeImage1(myElement, imgList);
+// /* // Yellow_watch_mob // */
+// /* black_watch_mob */
+// var myElement = document.getElementById('black_watch_mob'),
+//   imgList = [
+//     "imgs/black_watch_mob.png",
+//     "imgs/open_black_watch_mob.png",
+//   ];
+// function changeImage2(myElement, imgList) {
+//   setInterval(function () {
+//     randomImage = Math.floor(Math.random() * imgList.length);
+//     myElement.style.backgroundImage = "url('" + imgList[randomImage] + "')";
+//   }, 3000);
+// }
+// changeImage2(myElement, imgList);
 /* // black_watch_mob // */
 /* ==================== Section1 ==================== */
 /* // ==================== Opening & closing eyes ==================== // */
