@@ -46,7 +46,7 @@ body::-webkit-scrollbar {
 }
  .wrapper {
 	 width: 100%;
-	 max-width: 1600px;
+	 /* max-width: 1600px; */
 	 margin: auto;
    margin-bottom: -140px;
 }
@@ -1028,6 +1028,7 @@ body::-webkit-scrollbar {
   .img5-mobile{
     display: flex;
     padding: 35%;
+    margin-top: -5rem;
   }
 }
 @media screen and (min-width:100px) and (max-width:900px){
@@ -1081,6 +1082,7 @@ body::-webkit-scrollbar {
 .section6 .left_side{
   position: relative;
   width: 50%;
+  text-align: center;
 }
 .section6 .left_side .eye{
   position: relative;
@@ -1093,13 +1095,13 @@ body::-webkit-scrollbar {
   border-radius: 50%;
 }
 .section6 .right_side .top{
-  background: linear-gradient(91.23deg, #3C113F -1.78%, rgba(187, 35, 111, 0.5) 55.68%, rgba(255, 173, 14, 0) 102.3%);
+  background: linear-gradient(118deg, rgba(0,0,0,1) -2%, rgba(84,143,193,1) -21%, rgba(169,169,169,1) 68%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 .section6 .right_side .top h1{
   font-family: Libre Bodoni;
-  font-size: 130px;
+  font-size: 6rem;
   font-weight: 400;
   line-height: 117px;
   letter-spacing: 0em;
@@ -1156,12 +1158,12 @@ body::-webkit-scrollbar {
   right: 0;
   margin-top: 45px;
   /* border: 1px solid rgba(151, 71, 255, 1); */
-  background-image: url(./imgs/read\ more\ about\ bakkoura\ background.png);
+  background-image: url(./imgs/buttons/readmore-about-bakkoura.png);
   background-size: contain;
 }
 
 .section6 .right_side .botom .right_side a:hover{
-  background-image: url("imgs/read\ more\ about\ bakkoura\ background\ -\ after\ action.png");
+  background-image: url("./imgs/buttons/readmore-about-bakkoura-hover.png");
   transition: .5s;
   border: none;
 }
@@ -1174,6 +1176,7 @@ body::-webkit-scrollbar {
   .section6{
     flex-direction: column;
     overflow: hidden;
+    margin-top: 4rem;
   }
   .section6 .left_side:first-child{
     width: 100%;
@@ -1253,7 +1256,9 @@ body::-webkit-scrollbar {
 }
 @media screen and (min-width:100px) and (max-width:450px){
   .left_side1 img:first-child{
-    margin-left: -100px;
+    /* margin-left: -100px; */
+    max-width: 20rem;
+    margin-bottom: 5rem;
   }
   .section6 .left_side .eye{
     left: 145px;
@@ -1262,7 +1267,7 @@ body::-webkit-scrollbar {
 }
 @media screen and (min-width:100px) and (max-width:677px){
   .left_side1{
-    margin-top: -100px;
+    margin-top: 1.5rem;
     margin-bottom: 100px;
   }
 }
@@ -1281,7 +1286,7 @@ body::-webkit-scrollbar {
 }
 @media screen and (min-width:100px) and (max-width:450px){
   .section6 .right_side .top h1 {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 58px;
   }
 }
@@ -1304,7 +1309,7 @@ body::-webkit-scrollbar {
   width: 100%;
   padding-left: 290px;
   padding-right: 290px;
-  background-image: url(imgs/wallpaper/contact_us_wallpaper.png);
+  /* background-image: url(imgs/wallpaper/contact_us_wallpaper.png); */
   background-size: contain;
 }
 .section7 h1{
@@ -1332,7 +1337,7 @@ body::-webkit-scrollbar {
 form{
   margin-top: 81px;
   width: 100%;
-  padding-bottom: 400px;
+  padding-bottom: 1rem;
 }
 .inputs{
   display: grid;
@@ -1944,6 +1949,7 @@ color: #F0C673 !important;
     z-index: 111111;
     right: 3rem;
     bottom: 14rem;
+    display: none;
   }
   
 /* Menu border */
@@ -2999,7 +3005,7 @@ div#myModal{
   position: relative;
 }
 .swiper-container {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   height: auto;
   .swiper-pagination {
     bottom: 0;
@@ -3021,7 +3027,7 @@ div#myModal{
 
 .swiper-button-next, .swiper-button-prev 
   {
-  color:#F0C673 !important;
+  color:#6dbcff8a !important;
   height: 14.38px !important;
   Border:1px !important;
   width: 26px !important;
@@ -3068,4 +3074,8 @@ div#myModal{
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 
+}
+
+.section7 input{
+  border-radius: 20px !important;
 }
