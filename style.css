@@ -2616,12 +2616,26 @@ section .cookies a{
 
 .close:hover,
 .close:focus {
-  color: rgba(151, 71, 255, 1);
+  color: #6dbcff8a;
   text-decoration: none;
   cursor: pointer;
 }
 
 
+/* The Close Button */
+.closeConsultant {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeConsultant:hover,
+.closeConsultant:focus {
+  color: #6dbcff8a;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
 .titels{
@@ -3088,4 +3102,15 @@ div#myModal{
 .msg-new-style{
   border-radius: 35px !important;
 
+}
+
+
+
+.cookies #consultantBtn{
+  width: initial;
+  background-image:none;
+  background-size: initial;
+  cursor: pointer !important;
+  margin:initial;
+  padding:initial;
 }

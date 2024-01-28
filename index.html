@@ -41,7 +41,7 @@
         
         <div class='container'>
           <a href='#' class='home-link'>
-            Bakkoura Wink
+            Bakkoura Dictator
           </a>
           <img class="Frame1 desktop" src="imgs/bakkoura-logo.png" />
           <img class="Frame1 mob" src="imgs/bakkoura-logo-mobile.png" />
@@ -66,7 +66,7 @@
               <ul class='nav-list' aria-label='Primary' role='list'>
                 <div class="linkbar">
                   <li class='active'><a id="link" href='#Video_Galery'>Video & Galery</a></li>
-                  <li><a id="link" href='https://www.bakkoura.com/about' target="_blank">About Wink</a></li>
+                  <li><a id="link" href='https://www.bakkoura.com/about' target="_blank">About Dictator</a></li>
                   <li><a id="link" href='#Technical_Specs'>Technical Specs </a></li>
                   <li><a id="link" href='https://www.badreya.com/collections/the-wink' target="_blank">How Can I Get</a></li>
                   <li><a id="link" href='https://www.badreya.com/collections/the-wink' target="_blank">Where to Buy</a></li>
@@ -355,7 +355,7 @@
         TheExcellence
       </h1>
       <p>
-        The wink collection belongs to BAKKOURA brand, part of Bakkoura dynasty.
+        The dictator collection belongs to BAKKOURA brand, part of Bakkoura dynasty.
         <br />
         It is a unique consumer search and purchase experience: design ideas, limitless customization, unlimited choice
         and individuality.
@@ -422,14 +422,11 @@
                 <section  style="float: right;margin-right: 3px; position: sticky;bottom: 0;text-align: -webkit-center;z-index: 1111111111;">
                   <div class="cookies"id="cookies">
                     <!-- Click Here To Order -->
-                 <img style="width: 4rem;" src="imgs/Eye_FV.gif" alt="" class="">
+                 <a  id="consultantBtn"><img  style="width: 4rem;" src="imgs/Eye_FV.gif" alt="" class=""></a>
 
                   </div>
                 </section>
                   <!-- end of sticky section -->
-
-
-                  <!-- Trigger/Open The Modal -->
 
                   <!-- The Modal -->
                   <div id="myModal" class="modal">
@@ -452,7 +449,7 @@
                             <p>
                                 Eyes can't lie but can speak, they can gift hope, faith and love.
                                 <br />
-                                Eyes are like life in miniature. That's why "The wink" can change life, the world, the course of
+                                Eyes are like life in miniature. That's why "The Dictator" can change life, the world, the course of
                                 history.
                                 <br />
                                 <br />
@@ -475,9 +472,59 @@
                         </div>
                     </section>
                     </div>
+                    </div>
 
 
 
+                    <!-- Modal Consultant -->
+                          <!-- The Modal -->
+                  <div id="ConsultantModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="closeConsultant">&times;</span>
+                      <section class="popupPage">
+                        <div class="container">
+                            <a href="index.html">
+                                <div >
+                                    <!-- <img style="width: 4rem;" src="imgs/eye2x.gif" alt="" class=""> -->
+                                </div>
+                            </a>
+                            <h1>
+                                To hear the Soul look
+                                <br />
+                                into Eyes
+                            </h1>
+                            <p>
+                                Eyes can't lie but can speak, they can gift hope, faith and love.
+                                <br />
+                                Eyes are like life in miniature. That's why "The dictator" can change life, the world, the course of
+                                history.
+                                <br />
+                                <br />
+                                This extraordinary luxury timepiece by Bakkoura is much more than just an accessory; it is a symbol of
+                                power and sophistication. Precious and with impeccable details, this timepiece captures the essence of
+                                luxury and precision.
+                                Like Tomiris, the warrior queen of antiquity, this watch embodies determination and strength in a world
+                                of uncompromising elegance. Its beauty and craftsmanship are not only a tribute to ancient Persia, but
+                                also a celebration of all the strong women who have left their mark on history.
+                                <br />
+                                <br />
+                                By wearing this watch, you carry with you the story of all the extraordinary women who fought for their
+                                destiny. Grasp the power and grace, and let your pulse tell your story. This extraordinary luxury
+                                timepiece by Bakkoura is much more than just an accessory; it is a symbol of power and sophistication.
+                                Precious and with impeccable details, this timepiece captures the essence of luxury and precision.
+                                <br />
+                                Like Tomiris, the warrior queen of antiquity, this watch embodies determination and strength in a world
+                                of uncompromising
+                            </p>
+                        </div>
+                    </section>
+                    </div>
+                    </div>
+
+
+                    <!-- End Of Consultant  -->
     <!-- // ====================== Footer ====================== // -->
     <script src="./main.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -488,32 +535,32 @@
 
 <script>
   // Get the modal
-  var modal = document.getElementById("myModal");
-  
-  // Get the button that opens the modal
+  // var modal = document.getElementById("myModal");
   // var btn = document.getElementById("myBtn");
-  
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
-  
-  // When the user clicks the button, open the modal 
-  // btn.onclick = function() {
-  //   modal.style.display = "block";
+  // var span = document.getElementsByClassName("close")[0];
+  // span.onclick = function() {
+  //   modal.style.display = "none";
   // }
-  
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() {
-    modal.style.display = "none";
+  // window.onclick = function(event) {
+  //   if (event.target == modal) {
+  //     modal.style.display = "none";
+  //   }
+  // }
+
+  var consultant_modal = document.getElementById("ConsultantModal");
+  var span = document.getElementsByClassName("closeConsultant")[0];
+  var consultant_btn = document.getElementById("consultantBtn");
+  consultant_btn.onclick = function() {
+    consultant_modal.style.display = "block";
   }
-  
-  // When the user clicks anywhere outside of the modal, close it
+  span.onclick = function() {
+    consultant_modal.style.display = "none";
+  }
   window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
+    if (event.target == consultant_modal) {
+      consultant_modal.style.display = "none";
     }
   }
-
-
   //for multiple slides
 $(".swiper-wrap").each(function (index, element) {
   var $this = $(this);
