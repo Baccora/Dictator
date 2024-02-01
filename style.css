@@ -387,6 +387,8 @@ body::-webkit-scrollbar {
   background-size: cover;
   position: relative;
   z-index: -1;
+  background-size: auto;
+  background-position-x: center;
 }/* black_watch */
 .section1 .black_watch{
   position: absolute;
@@ -398,7 +400,7 @@ body::-webkit-scrollbar {
   height: 677px; */
   width: 514px;
   height: 671px;
-  background-image: url("imgs/slider_right_img.svg");
+  background-image: url("imgs/slider_right_img.png");
   animation: 3s black_watch forwards;
   transition: 4.5s;
   /* background-size: cover; */
@@ -1012,7 +1014,7 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 13px 26px 15px 31px;
-  margin-top: -100px;
+  margin-top: 1rem !important;
 }
 .section5 a:hover{
   background-image: url("imgs/buttons/Property\ 1=Variant2.png");
@@ -1136,7 +1138,7 @@ body::-webkit-scrollbar {
   color: rgba(255, 255, 255, 1);
   font-family: Montserrat;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
@@ -1311,6 +1313,9 @@ body::-webkit-scrollbar {
   padding-right: 290px;
   /* background-image: url(imgs/wallpaper/contact_us_wallpaper.png); */
   background-size: contain;
+  background-image: url("imgs/wallpapersden 1.png");
+  background-size: auto;
+  background-position-x: center;
 }
 .section7 h1{
   font-family: Libre Bodoni;
@@ -1428,7 +1433,6 @@ form .last p span{
   border: none;
   padding: 15px 20px;
   transition: .5s;
-  margin-left: 2rem;
 
 }
 .submit:hover{
@@ -1733,7 +1737,7 @@ color: #F0C673 !important;
     position: absolute;
     z-index: 111111;
     right: 9rem;
-    top: 21rem;
+    top: 11rem;
     
   }
   }
@@ -2508,6 +2512,7 @@ Desktop:
     margin-right: 5rem;
     margin-left: 5rem;
     max-width: max-content;
+    margin-top: 5rem;
   }
   .all_logos_mobile{
     display: none !important;
@@ -2830,8 +2835,10 @@ div#myModal{
 .section5-5{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-left: 150px;
+  /* justify-content: space-between; */
+  flex-flow:row nowrap;
+  /* padding-left: 150px; */
+  justify-content: center;
   overflow: hidden;
 
 }
@@ -2864,6 +2871,7 @@ div#myModal{
 }
 .section5-5 .left_side{
   position: relative;
+  /* margin-right: 5rem; */
 }
 .section5-5 .left_side h1{
   -webkit-text-fill-color: transparent;
@@ -3095,7 +3103,7 @@ div#myModal{
 }
 
 .section7 input{
-  border-radius: 20px !important;
+  border-radius: 5px !important;
 }
 
 
@@ -3132,4 +3140,18 @@ div#myModal{
 .popupPage .container .consultant-model-desc{
   text-align: center !important;
 }
+.submit{
+  margin-left: 2rem;
+}
+
+
+
+
+.section5 a{
+  margin-top: 11rem !important;
+}
+}
+
+.check-section{
+  margin-top:1rem;
 }
