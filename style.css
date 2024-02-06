@@ -1029,7 +1029,7 @@ body::-webkit-scrollbar {
   }
   .img5-mobile{
     display: flex;
-    padding: 35%;
+    padding: 35% 35% 23% 35%;
     margin-top: -5rem;
   }
 }
@@ -1108,6 +1108,11 @@ body::-webkit-scrollbar {
   line-height: 117px;
   letter-spacing: 0em;
   text-align: left;
+}
+.section5 p{
+  padding-right: 5px;
+  padding-left: 5px;
+  font-family: Montserrat;
 }
 .section6 .right_side .top p{
   font-family: Montserrat;
@@ -3148,7 +3153,7 @@ div#myModal{
 
 
 .section5 a{
-  margin-top: 11rem !important;
+  margin-top: 4rem !important;
 }
 }
 
