@@ -2657,6 +2657,20 @@ section .cookies a{
   cursor: pointer;
 }
 
+/* The Close Button */
+.closeDictator {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeDictator:hover,
+.closeDictator:focus {
+  color: #6dbcff8a;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .titels{
   display: flex;
@@ -3190,6 +3204,11 @@ input[type='checked'] {
   .watches-info-mob {
   display: none !important;
   }
+  
+
+#DictatorModal .popupPage h1{
+  font-size: 3rem; text-align: left !important;
+}
   }
 @media screen and (min-width:200px) and (max-width:850px){
   .watches-info-desktop {
@@ -3197,6 +3216,9 @@ input[type='checked'] {
   }
   #Technical_Specs{
     margin-top: 5rem;
+  }
+  #DictatorModal .popupPage h1{
+    font-size: 1.5rem; text-align: left !important;
   }
   }
 .watches-info-desktop {

@@ -175,7 +175,7 @@
               This is magic that taps into your feelings and makes them drive your actions. This model always reminds you of who you are and that people's feelings for you drive them. And the proof of that is your confidence.
               outstanding mentality! The rectangular case of this watch uniquely embodies the determination to confront and overcome circumstances. It is 95% 
             </p>
-            <a target="_blank">Read more</a>
+            <a  id="dictatorBtn" target="_blank">Read more</a>
           </div>
         </div>
         <div class="watches-info-left-side-desktop">
@@ -190,7 +190,7 @@
               This is magic that taps into your feelings and makes them drive your actions. This model always reminds you of who you are and that people's feelings for you drive them. And the proof of that is your confidence.
               outstanding mentality! The rectangular case of this watch uniquely embodies the determination to confront and overcome circumstances. It is 95% 
             </p>
-            <a  target="_blank">Read more</a>
+            <a  id="dictatorBtn2" target="_blank">Read more</a>
 
           </div>
         </div>
@@ -214,7 +214,7 @@
                 This is magic that taps into your feelings and makes them drive your actions. This model always reminds you of who you are and that people's feelings for you drive them. And the proof of that is your confidence.
                 outstanding mentality! The rectangular case of this watch uniquely embodies the determination to confront and overcome circumstances. It is 95% 
               </p>
-              <a  target="_blank">Read more</a>
+              <a  id="dictatorBtn3" target="_blank">Read more</a>
             </div>
           </div>
           <div class="watches-info-left-side-mob">
@@ -229,7 +229,7 @@
                 This is magic that taps into your feelings and makes them drive your actions. This model always reminds you of who you are and that people's feelings for you drive them. And the proof of that is your confidence.
                 outstanding mentality! The rectangular case of this watch uniquely embodies the determination to confront and overcome circumstances. It is 95% 
               </p>
-              <a target="_blank">Read more</a>
+              <a id="dictatorBtn4" target="_blank">Read more</a>
   
             </div>
           </div>
@@ -603,9 +603,7 @@
 
                     <!-- Modal Dictator -->
                           <!-- The Modal -->
-                          <div id="DictatorModal" class="modal consModal">
-
-                            <!-- Modal content -->
+                          <!-- <div id="DictatorModal" class="modal consModal">
                             <div class="modal-content">
                               <span class="closeDictator">&times;</span>
                               <section class="popupPage">
@@ -621,7 +619,40 @@
                                 </div>
                             </section>
                             </div>
-                            </div>
+                            </div> -->
+
+
+
+                            <div id="DictatorModal" class="modal">
+
+                              <!-- Modal content -->
+                              <div class="modal-content">
+                                <span class="closeDictator">&times;</span>
+                                <section class="popupPage">
+                                  <div class="container">
+                                      <a href="index.html">
+                                          <div >
+                                              <!-- <img style="width: 4rem;" src="imgs/eye2x.gif" alt="" class=""> -->
+                                          </div>
+                                      </a>
+                                      <h1>
+                                        Dictator
+                                      </h1>
+                                      <p>
+                                        This is magic that taps into your feelings and makes them drive your actions. This model always reminds you of who you are and that people's feelings for you drive them. And the proof of that is your confidence.<br />                                          <br />
+                                          <br />
+                                          Controller: Unlimited power, this watch is chosen only by those who control their destiny, not allowing obstacles and barriers to stand in their way. This watch suits exactly that category of society, the proportion of which does not exceed 1%. The character of the lord is manifested in every detail. Indomitable will, outstanding personality, outstanding mentality! The rectangular case of this watch uniquely embodies the determination to confront and overcome circumstances. It is 95% transparent. The power is not hidden!   <br />
+                                          <br />
+                                          This is magic that taps into your feelings and makes them drive your actions. This model always reminds you of who you are and that people's feelings for you drive them. And the proof of that is your confidence.   <br />
+                                      </p>
+                                      <h1>Dictator Green, Siler & Blue</h1>
+                                      <p>
+                                        Controller: Unlimited power, this watch is chosen only by those who control their destiny, not allowing obstacles and barriers to stand in their way. This watch suits exactly that category of society, the proportion of which does not exceed 1%. The character of the lord is manifested in every detail. Indomitable will, outstanding personality, outstanding mentality! The rectangular case of this watch uniquely embodies the determination to confront and overcome circumstances. It is 95% transparent. The power is not hidden!
+                                      </p>
+                                  </div>
+                              </section>
+                              </div>
+                              </div>
 
                                                 <!--End Modal Dictator -->
 
@@ -641,18 +672,6 @@
 
 
 <script>
-  // Get the modal
-  // var modal = document.getElementById("myModal");
-  // var btn = document.getElementById("myBtn");
-  // var span = document.getElementsByClassName("close")[0];
-  // span.onclick = function() {
-  //   modal.style.display = "none";
-  // }
-  // window.onclick = function(event) {
-  //   if (event.target == modal) {
-  //     modal.style.display = "none";
-  //   }
-  // }
 
   var consultant_modal = document.getElementById("ConsultantModal");
   var span = document.getElementsByClassName("closeConsultant")[0];
@@ -674,7 +693,20 @@
 var dictator_modal = document.getElementById("DictatorModal");
   var span = document.getElementsByClassName("closeDictator")[0];
   var dictator_btn = document.getElementById("dictatorBtn");
+  var dictator_btn2 = document.getElementById("dictatorBtn2");
+  var dictator_btn3 = document.getElementById("dictatorBtn3");
+  var dictator_btn4 = document.getElementById("dictatorBtn4");
+  
   dictator_btn.onclick = function() {
+    dictator_modal.style.display = "block";
+  }
+  dictator_btn2.onclick = function() {
+    dictator_modal.style.display = "block";
+  }
+  dictator_btn3.onclick = function() {
+    dictator_modal.style.display = "block";
+  }
+  dictator_btn4.onclick = function() {
     dictator_modal.style.display = "block";
   }
   span.onclick = function() {
