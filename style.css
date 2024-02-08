@@ -3205,7 +3205,7 @@ input[type='checked'] {
   display: flex;
 }
 .watches-info-right-side-desktop{
-  padding: 6rem;
+  padding: 1rem;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -3214,7 +3214,7 @@ align-items: center;
 }
 
 .watches-info-left-side-desktop{
-  padding: 3rem;
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3222,10 +3222,10 @@ align-items: center;
   background-size: cover;
 }
 .watches-info-right-side-img-desktop{
-margin-right: 1rem;
+margin-right: 10px;
 }
 .watches-info-left-side-img-desktop{
-  margin-right: 1rem;
+  margin-right: 10px;
 
 }
 
