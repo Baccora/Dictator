@@ -16,7 +16,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet">
 <link rel="icon" href="./imgs/favicon.ico" type="image/x-icon">
-
+<!-- <style>
+  .tabcontent {
+  display: none;
+}
+</style> -->
 </head>
   <body>
     <!--  ====================== Navbar ======================  -->
@@ -132,9 +136,35 @@
     <!-- // ====================== section2 ====================== // -->
 <!--  ====================== section3 ======================  -->
 <div class="dictator-character-gallery-text-section">
-  <div class="dictator-text">Dictator</div>
-  <div class="character-text">Character</div>
+  <div class="dictator-text" style="cursor:pointer;" onclick="openTab(event, 'dictator')">Dictator</div>
+  <div class="character-text" style="cursor:pointer;" onclick="openTab(event, 'character')">Character</div>
+  <!-- <button class="tablinks" onclick="openTab(event, 'dictator')">Dictator</button>
+  <button class="tablinks" onclick="openTab(event, 'character')">Character</button> -->
 </div>
+
+<!-- <div class="tab">
+
+</div> -->
+
+<div id="dictator" class="gallery tabcontent" onclick="openLightbox(event)">
+        <Image src="imgs/gallery/Rectangle 3365.png" alt="" />
+        <Image src="imgs/gallery/Rectangle 3366.png" alt="" />
+        <Image src="imgs/gallery/Rectangle 3368.png" alt="" />
+        <Image src="imgs/gallery/Rectangle 3367.png" alt="" />
+        <Image src="imgs/gallery/Rectangle 3369 (2).png" alt="" />
+        <Image src="imgs/gallery/Rectangle 3368 (1).png" alt="" />
+        <Image src="imgs/gallery/Rectangle 3370.png" alt="" />
+        <Image src="imgs/gallery/Rectangle 3369.png" alt="" /></div>
+
+<div id="character" class="gallery tabcontent" onclick="openLightbox(event)">
+  <Image src="imgs/gallery/charachter_1.png" alt="" />
+  <Image src="imgs/gallery/charachter_2.png" alt="" />
+  <Image src="imgs/gallery/charachter_3.png" alt="" />
+  <Image src="imgs/gallery/charachter_4.png" alt="" />
+      </div>
+
+<!-- 
+
       <div class="gallery" onclick="openLightbox(event)">
         <Image src="imgs/gallery/Rectangle 3365.png" alt="" />
         <Image src="imgs/gallery/Rectangle 3366.png" alt="" />
@@ -144,7 +174,7 @@
         <Image src="imgs/gallery/Rectangle 3368 (1).png" alt="" />
         <Image src="imgs/gallery/Rectangle 3370.png" alt="" />
         <Image src="imgs/gallery/Rectangle 3369.png" alt="" />
-      </div>
+      </div> -->
       <!-- Lightbox container -->
       <div id="lightbox">
         <!-- Close button -->
@@ -757,7 +787,25 @@ for (var i = 0; i < wrap.length; i++) {
   }
 }
 
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    if (tabcontent[i].id === tabName) {
+      tabcontent[i].style.removeProperty('display');
+    } else {
+      tabcontent[i].style.display = "none";
+    }
+  }
+}
 
+document.addEventListener('DOMContentLoaded', function() {
+  // Simulate a click event on the element with onclick="openTab(event, 'dictator')"
+  const element = document.querySelector('[onclick="openTab(event, \'dictator\')"]');
+  if (element) {
+    element.click();
+  }
+});
   </script>
 
   </body>

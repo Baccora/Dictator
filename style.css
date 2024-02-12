@@ -1325,7 +1325,9 @@ body::-webkit-scrollbar {
   padding-right: 290px;
   /* background-image: url(imgs/wallpaper/contact_us_wallpaper.png); */
   background-size: cover;
-  background-image: url("imgs/wallpapersden 1.png");
+  /* background-image: url("imgs/wallpapersden 1.png"); */
+  background: linear-gradient(rgba(0, 0, 0, 0.418) 25%, rgba(0, 0, 0, 0.978)100%),
+  url('imgs/wallpapersden 1.png');
   background-position-x: center;
 }
 .section7 h1{
